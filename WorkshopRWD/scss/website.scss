@@ -1,0 +1,78 @@
+$margin:2px;
+$padding:2px;
+$bg-color: lightblue;
+$page-bg-color: lavender;
+$portrait-width: 80%;
+$landscape-width: 98%;
+$font-size:2rem;
+$text-align: center;
+$img-width: 55%;
+$size:1rem;
+$img-height:15%;
+
+header{
+    text-align: $text-align;
+    margin: $margin;
+    padding: $padding;
+}
+
+.nav{
+    display: inline-flex;
+    background-color: darkblue;
+}
+
+.nav-link{
+    margin: 4px;
+    color: whitesmoke;
+}
+
+.nav-link:hover{
+        font-size: 1.5rem;
+        color: yellow;
+}
+
+link{
+    font-size: $font-size;
+}
+
+body{
+    background-color: $page-bg-color;
+    display: grid;
+    margin: 0;
+}
+
+.img{
+    width: 100%;
+}
+
+div{
+    padding: $size;
+}
+
+.myContainer{ 
+    background-color:$bg-color;
+}
+
+.container-img{
+    width: $img-width;
+    height: $img-height;
+}
+
+footer{
+    text-align: $text-align;
+}
+
+@media all and (orientation:portrait){
+    .myContainer{
+        width: $portrait-width ;
+        font-size: $font-size;
+    }
+}
+
+@media all and (orientation:landscape){
+    .myContainer{
+        display: flex; 
+        width: $landscape-width;
+        font-size: $size;
+    }
+}

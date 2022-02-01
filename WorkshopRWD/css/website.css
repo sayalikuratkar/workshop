@@ -1,0 +1,72 @@
+header {
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+.nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: darkblue;
+}
+
+.nav-link {
+  margin: 4px;
+  color: whitesmoke;
+}
+
+.nav-link:hover {
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+link {
+  font-size: 2rem;
+}
+
+body {
+  background-color: lavender;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+}
+
+div {
+  padding: 1rem;
+}
+
+.myContainer {
+  background-color: lightblue;
+}
+
+.container-img {
+  width: 55%;
+  height: 15%;
+}
+
+footer {
+  text-align: center;
+}
+
+@media all and (orientation: portrait) {
+  .myContainer {
+    width: 80%;
+    font-size: 2rem;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .myContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 98%;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=website.css.map */
