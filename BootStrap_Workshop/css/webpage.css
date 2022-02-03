@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+body {
+    display: grid;
+    margin: 0;
+    
+}
+
+.container{
+    margin: 2px;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
